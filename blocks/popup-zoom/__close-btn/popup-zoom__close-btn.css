@@ -1,0 +1,13 @@
+.popup-zoom__close-btn {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  top: -23px;
+  right: -23px;
+  background-image: url(../../../images/btn_cls.png);
+  background-position: center;
+  background-size: 100%;
+}

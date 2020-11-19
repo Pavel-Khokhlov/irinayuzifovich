@@ -1,0 +1,9 @@
+@import url(__paragraph/story__paragraph.css);
+@import url(__image/story__image.css);
+
+.story {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: max(30px, min(calc((30px + (100vw - 320px) / 28.5)), 50px));
+}

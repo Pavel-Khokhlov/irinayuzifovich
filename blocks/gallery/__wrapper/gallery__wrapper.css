@@ -1,0 +1,16 @@
+.gallery__wrapper {
+  width: 100%;
+  position: relative;
+}
+
+@media only screen and (max-width: 890px) {
+  .gallery__wrapper {
+    width: 80vw;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .gallery__wrapper {
+    width: 100vw;
+  }
+}

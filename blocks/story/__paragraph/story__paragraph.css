@@ -1,0 +1,27 @@
+@import url(_banlgothic/story__paragraph_bankgothic.css);
+
+.story__paragraph {
+  font-size: 18px;
+  font-weight: normal;
+  text-align: justify;
+  text-indent: 2em;
+  text-justify: inter-word;
+  margin: 0;
+  padding: 0 16px;
+}
+
+.story__paragraph + .story__paragraph {
+  margin-top: max(10px, min(calc((10px + (100vw - 320px) / 44.8)), 20px));
+}
+
+@media only screen and (max-width: 767px) {
+  .story__paragraph {
+    font-size: 2.1vw;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .story__paragraph {
+    font-size: 3.3vw;
+  }
+}

@@ -1,0 +1,31 @@
+@import url(__name/gallery__name.css);
+@import url(__title/gallery__title.css);
+@import url(__wrapper/gallery__wrapper.css);
+@import url(__image/gallery__image.css);
+
+.gallery {
+  max-width: 1200px;
+  height: 555px;
+  margin: 0 auto;
+  margin-top: max(55px, min(calc((55px + (100vw - 320px) / 14.93)), 85px));
+  margin-bottom: max(30px, min(calc((30px + (100vw - 320px) / 22.4)), 50px)); 
+  display: grid;
+  grid-template-columns: repeat(2, 400px);
+  gap: 30px;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 890px) {
+  .gallery {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: calc(80vw * 1.39);
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .gallery {
+    height: 139vw;
+  }
+}

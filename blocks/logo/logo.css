@@ -1,0 +1,9 @@
+@import url(__title/logo__title.css);
+@import url(__subtitle/logo__subtitle.css);
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

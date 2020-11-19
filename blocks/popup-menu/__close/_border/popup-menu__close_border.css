@@ -1,0 +1,10 @@
+.popup-menu__close_border {
+  margin-top: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  padding: 4px 20px 0 25px;
+}
+
+.popup-menu__close_border:hover {
+  border: 1px solid rgba(255, 255, 255, 1);
+}

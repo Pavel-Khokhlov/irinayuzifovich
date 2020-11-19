@@ -1,0 +1,15 @@
+@import url(__container/popup-zoom__container.css);
+@import url(__close-btn/popup-zoom__close-btn.css);
+@import url(__image/popup-zoom__image.css);
+@import url(__title/popup-zoom__title.css);
+
+.popup-zoom {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  visibility: hidden;
+  z-index: 2;
+}

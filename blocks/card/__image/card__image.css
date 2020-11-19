@@ -1,0 +1,9 @@
+.card__image {
+  width: 100%;
+  transition: 0.8s;
+}
+
+.card__image:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
+}

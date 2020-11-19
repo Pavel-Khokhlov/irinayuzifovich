@@ -1,0 +1,13 @@
+.contacts__link {
+  font-family: 'Roboto';
+  font-weight: normal;
+  line-height: 1.2;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+  transition: 0.8s;
+}
+
+.contacts__link:hover {
+  color: rgba(255, 255, 255, 0.5);
+}

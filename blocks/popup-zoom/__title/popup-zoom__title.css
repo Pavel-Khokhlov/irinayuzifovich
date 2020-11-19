@@ -1,0 +1,10 @@
+.popup-zoom__title {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  font-size: 20px;
+  font-weight: normal;
+  color: #fff;
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}

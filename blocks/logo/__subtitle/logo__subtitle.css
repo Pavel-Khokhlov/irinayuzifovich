@@ -1,0 +1,21 @@
+.logo__subtitle {
+  font-family: "Bahnschrift", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .logo__subtitle {
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .logo__subtitle {
+    font-size: 3vw;
+  }
+}

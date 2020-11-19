@@ -1,0 +1,19 @@
+.header__phone {
+  font-size: 16px;
+  display: block;
+  place-items: center;
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  margin-left: 20px;
+  transition: 0.8s;
+}
+
+.header__phone:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+@media only screen and (max-width: 1024px) {
+  .header__phone {
+    display: none;
+  }
+}

@@ -1,0 +1,20 @@
+@import url(_insta/card__link_inst.css);
+@import url(_wa/card__link_wa.css);
+
+.card__link {
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  margin: 5px auto;
+  padding: 5px 20px;
+  border: 1px solid black;
+  width: 70%;
+  border-radius: 20px;
+  transition: 0.8s;
+}
+
+.card__link:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  cursor: pointer;
+}

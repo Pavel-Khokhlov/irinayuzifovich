@@ -1,0 +1,7 @@
+.contacts__text {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  line-height: 1.2;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+}

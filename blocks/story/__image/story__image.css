@@ -1,0 +1,8 @@
+@import url(../../../animation/zoomIn/zoomIn.css);
+
+.story__image {
+  max-width: min(80vw, 600px);
+  margin: 0;
+  margin-top: max(10px, min(calc((10px + (100vw - 320px) / 44.8)), 20px));
+  margin-bottom: max(10px, min(calc((10px + (100vw - 320px) / 44.8)), 20px));
+}

@@ -1,0 +1,19 @@
+@import url(__container/popup-menu__container.css);
+@import url(__lang/popup-menu__lang.css);
+@import url(__list/popup-menu__list.css);
+@import url(__line/popup-menu__line.css);
+@import url(__close/popup-menu__close.css);
+@import url(_opened/popup-menu_opened.css);
+
+.popup-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.95);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.7s ease;
+  z-index: 2;
+}

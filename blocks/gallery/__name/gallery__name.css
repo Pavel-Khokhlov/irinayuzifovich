@@ -1,0 +1,12 @@
+.gallery__name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 890px) {
+  .gallery__name {
+    display: none;
+  }
+}

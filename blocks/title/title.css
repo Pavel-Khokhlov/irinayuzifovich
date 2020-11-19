@@ -1,0 +1,21 @@
+@import url(../../animation/fadeInLeft/fadeInLeft.css);
+
+.title {
+  font-size: 30px; 
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: max(30px, min(calc((30px + (100vw - 320px) / 22.4)), 50px)); 
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .title {
+    font-size: 4vw;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .title {
+    font-size: 5vw;
+  }
+}

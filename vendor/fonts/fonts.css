@@ -1,0 +1,44 @@
+@font-face {
+	font-family: 'Yanone Kaffeesatz';
+	src: url('./YanoneKaffeesatz-ExtraLight.eot');
+	src: url('./YanoneKaffeesatz-ExtraLight.eot?#iefix') format('embedded-opentype'),
+			url('./YanoneKaffeesatz-ExtraLight.woff2') format('woff2'),
+			url('./YanoneKaffeesatz-ExtraLight.woff') format('woff'),
+			url('./YanoneKaffeesatz-ExtraLight.ttf') format('truetype'),
+			url('./YanoneKaffeesatz-ExtraLight.svg') format('svg');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bahnschrift';
+	src: url('Bahnschrift.eot');
+	src: url('Bahnschrift.eot?#iefix') format('embedded-opentype'),
+			url('Bahnschrift.woff2') format('woff2'),
+			url('Bahnschrift.woff') format('woff'),
+			url('Bahnschrift.ttf') format('truetype'),
+			url('Bahnschrift.svg#Bahnschrift') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'BankGothic Md BT';
+	src: url('BankGothicMdBT-Medium.eot');
+	src: url('BankGothicMdBT-Medium.eot?#iefix') format('embedded-opentype'),
+			url('BankGothicMdBT-Medium.woff2') format('woff2'),
+			url('BankGothicMdBT-Medium.woff') format('woff'),
+			url('BankGothicMdBT-Medium.ttf') format('truetype'),
+			url('BankGothicMdBT-Medium.svg#BankGothicMdBT-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('./Roboto-Regular.eot');
+	src: local('☺'), url('./Roboto-Regular.woff') format('woff'), url('./Roboto-Regular.ttf') format('truetype'), url('./Roboto-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

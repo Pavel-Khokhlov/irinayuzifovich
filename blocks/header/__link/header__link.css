@@ -1,0 +1,18 @@
+.header__link {
+  display: flex;
+  place-items: center;
+  margin-right: 20px;
+  width: 20px;
+  opacity: 0.5;
+  transition: 0.8s;
+}
+
+.header__link:hover {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 767px) {
+  .header__link {
+    display: none;
+  }
+}

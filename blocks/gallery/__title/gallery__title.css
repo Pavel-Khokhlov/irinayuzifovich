@@ -1,0 +1,8 @@
+.gallery__title {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-transform: uppercase;
+  opacity: 0.5;
+  margin: 0;
+}

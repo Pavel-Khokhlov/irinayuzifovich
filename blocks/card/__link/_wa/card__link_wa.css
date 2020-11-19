@@ -1,0 +1,9 @@
+.card__link_wa {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .card__link_wa {
+    display: block;
+  }
+}

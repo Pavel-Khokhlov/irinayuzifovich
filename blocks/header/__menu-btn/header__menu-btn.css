@@ -1,0 +1,16 @@
+.header__menu-btn {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url(../../../images/menu.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 767px) {
+  .header__menu-btn {
+    width: 5px + 3.5vw;
+    height: 5px + 3.5vw;
+  }
+}
