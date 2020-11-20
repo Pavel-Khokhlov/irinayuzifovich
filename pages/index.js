@@ -30,7 +30,7 @@ const menuPopup = new PopupWithMenu(popupMenu);
 menuPopup.setEventListeners();
 
 buttonMenu.addEventListener("click", () => menuPopup.open());
- 
+
 // LOAD COLLECTION
 
 const collectionList = new Section(
@@ -80,10 +80,13 @@ const handleLang = () => {
 
 buttonLanguage.addEventListener("click", handleLang);
 
-function initLang() {
+// INITIALIZE SETTINGS
+
+const initSetting = () => {
   englishParagraph.forEach((item) => {
     item.classList.add(paragraphDisabled);
   });
-}
+  menuPopup.open();
+};
 
-initLang();
+initSetting();
