@@ -1,23 +1,37 @@
 import { collection } from "../utils/data.js";
 import {
-  root,
+  bodyRoot,
+  buttonMenu,
   buttonLanguage,
   paragraphDisabled,
   cardList,
   cardTemplate,
+  popupMenu,
   popupZoomCard,
-} from "../utils/config.js";
+} from "../utils/constants.js";
+
 import Card from "../components/card.js";
 import Section from "../components/section.js";
-import Popup from "../components/popup.js";
 import PopupWithImage from "../components/popupWithImage.js";
+import PopupWithMenu from "../components/popupWithMenu.js";
 
-const zoomPopup = new PopupWithImage(popupZoomCard);
-zoomPopup.setEventListeners();
+// ZOOM CARD POPUP
 
-const openZoomPopup = (name, link) => {
-  zoomPopup.open(name, link);
+const zoomCardPopup = new PopupWithImage(popupZoomCard);
+zoomCardPopup.setEventListeners();
+
+const openZoomPopup = (link, title) => {
+  zoomCardPopup.open(link, title);
 };
+
+// SHOW MENU POPUP
+
+const menuPopup = new PopupWithMenu(popupMenu);
+menuPopup.setEventListeners();
+
+buttonMenu.addEventListener("click", () => menuPopup.open());
+ 
+// LOAD COLLECTION
 
 const collectionList = new Section(
   {
@@ -31,14 +45,15 @@ const collectionList = new Section(
   cardList
 );
 
-defaultPlaceList.renderPlaces();
+collectionList.renderCards();
 
 // CHANGE LANGUAGE
-const englishParagraph = document.querySelectorAll(".eng");
-const russianParagraph = document.querySelectorAll(".ru");
+
+const englishParagraph = bodyRoot.querySelectorAll(".eng");
+const russianParagraph = bodyRoot.querySelectorAll(".ru");
 
 function changeLanguage() {
-  if (root.classList.contains("ru")) {
+  if (bodyRoot.classList.contains("ru")) {
     buttonLanguage.textContent = "eng";
     russianParagraph.forEach((item) => {
       item.classList.remove(paragraphDisabled);
@@ -47,7 +62,7 @@ function changeLanguage() {
       item.classList.add(paragraphDisabled);
     });
   } else {
-    buttonLang.textContent = "rus";
+    buttonLanguage.textContent = "rus";
     russianParagraph.forEach((item) => {
       item.classList.add(paragraphDisabled);
     });
@@ -58,8 +73,8 @@ function changeLanguage() {
 }
 
 const handleLang = () => {
-  root.classList.toggle("ru");
-  root.classList.toggle("eng");
+  bodyRoot.classList.toggle("ru");
+  bodyRoot.classList.toggle("eng");
   changeLanguage();
 };
 

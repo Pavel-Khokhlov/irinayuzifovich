@@ -1,18 +1,20 @@
+@import url(__menu/button__menu.css);
+@import url(__close/button__close.css);
+
 .button {
   /* сброс стилей */
   padding: 0;
   border: none;
   font: inherit;
-  color: inherit;
   background-color: transparent;
   cursor: pointer;
   /* настройки кнопок */
   opacity: 1;
-  transition: 0.4s;
+  transition: 0.8s;
 }
 
 .button:hover {
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 .button:active {

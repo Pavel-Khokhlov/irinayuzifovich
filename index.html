@@ -21,7 +21,7 @@
     <section class="header">
         <nav class="header__nav">
             <ul class="header__nav-left">
-                <li><button class="button header__menu-btn">
+                <li><button class="button button__menu">
                     </button></li>
                 <li><a class="header__phone" href="tel: +79688241313">+7 (968) 824-13-13</a></li>
             </ul>
@@ -214,41 +214,41 @@
 
     <!-- POPUP MENU -->
 
-    <section class="popup-menu">
-        <div class="popup-menu__container">
-            <button type="button" class="button popup-menu__lang">eng</button>
-            <ul class="popup-menu__list">
-                <li><a class="popup-menu__close" href="#main"><span class="popup-menu__line"></span>
-                        <p class="ru">главная</p>
-                        <p class="eng">main</p>
+    <section class="popup popup-menu">
+        <div class="popup__container popup__container_menu">
+            <button type="button" class="button button_lang">eng</button>
+            <ul class="popup__list">
+                <li><a class="popup__link popup__close" href="#main"><span class="popup__line"></span>
+                        <p class="paragraph ru">главная</p>
+                        <p class="paragraph eng">main</p>
                     </a></li>
-                <li><a class="popup-menu__close" href="#story"><span class="popup-menu__line"></span>
-                        <p class="ru">история</p>
-                        <p class="eng">story</p>
+                <li><a class="popup__link popup__close" href="#story"><span class="popup__line"></span>
+                        <p class="paragraph ru">история</p>
+                        <p class="paragraph eng">story</p>
                     </a></li>
-                <li><a class="popup-menu__close" href="#collection"><span class="popup-menu__line"></span>
-                        <p class="ru">коллекция</p>
-                        <p class="eng">collection</p>
+                <li><a class="popup__link popup__close" href="#collection"><span class="popup__line"></span>
+                        <p class="paragraph ru">коллекция</p>
+                        <p class="paragraph eng">collection</p>
                     </a></li>
-                <li><a class="popup-menu__close" href="#contacts"><span class="popup-menu__line"></span>
-                        <p class="ru">контакты</p>
-                        <p class="eng">contacts</p>
+                <li><a class="popup__link popup__close" href="#contacts"><span class="popup__line"></span>
+                        <p class="paragraph ru">контакты</p>
+                        <p class="paragraph eng">contacts</p>
                     </a></li>
-                <li><a class="popup-menu__close popup-menu__close_border" href="#1">
-                        <p class="ru">вход</p>
-                        <p class="eng">enter</p>
-                    </a></li>
+                <li><button type="button" class="button button_enter popup__close" href="#main">
+                        <p class="paragraph ru">вход</p>
+                        <p class="paragraph eng">enter</p>
+                </button></li>
             </ul>
         </div>
     </section>
 
     <!-- POPUP WITH IMAGE -->
 
-    <section class="popup-zoom">
-        <figure class="popup-zoom__container">
-            <button type="button" class="button popup-zoom__close-btn"></button>
-            <img src="#link" alt="#title" class="popup-zoom__image">
-            <figcaption class="popup-zoom__title">#title</figcaption>
+    <section class="popup popup-zoom">
+        <figure class="popup__container popup__container_zoom">
+            <button type="button" class="button button__close popup__close"></button>
+            <img src="#link" alt="#title" class="popup__image">
+            <figcaption class="popup__caption">#title</figcaption>
         </figure>
     </section>
 

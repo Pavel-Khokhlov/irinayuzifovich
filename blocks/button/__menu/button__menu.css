@@ -1,4 +1,4 @@
-.header__menu-btn {
+.button__menu {
   display: block;
   width: 30px;
   height: 30px;
@@ -9,8 +9,8 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .header__menu-btn {
-    width: 5px + 3.5vw;
-    height: 5px + 3.5vw;
+  .button__menu {
+    width: 20px;
+    height: 20px;
   }
 }

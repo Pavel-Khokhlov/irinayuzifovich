@@ -1,0 +1,21 @@
+.popup__link {
+  position: relative;
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Yanone Kaffeesatz", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-decoration: none;
+  overflow: hidden;
+  padding: max(30px, 2.5vw) 0 max(20px, 1.7vw);
+}
+
+.popup__link:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.popup__link:hover .popup__line {
+  left: -4px;
+}

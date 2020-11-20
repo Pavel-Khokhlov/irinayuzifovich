@@ -1,5 +1,5 @@
 import {
-  cardList,
+  cardContainer,
   cardImage,
   cardTitle,
   cardTypeRu,
@@ -20,19 +20,19 @@ export default class Card {
   _getTemplate() {
     const cardElement = document
       .querySelector(this._selector)
-      .content.querySelector(cardList)
+      .content.querySelector(cardContainer)
       .cloneNode(true);
 
     return cardElement;
   }
 
-  _handleCardClick(title, link) {
-    this._handleCardZoom(title, link);
-  }
+  //_handleCardClick(link, title) {
+  //  this._handleCardZoom(link, title);
+  //}
 
   _setEventsListeners() {
     this._image.addEventListener("click", () =>
-      this._handleCardClick(this._title, this._link)
+      this._handleCardZoom(this._link, this._title)
     );
   }
 
@@ -47,6 +47,7 @@ export default class Card {
     this._element.querySelector(
       cardLinkWa
     ).href = `https://wa.me/79688241313?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D0%BC%D0%B5%D0%BD%D1%8F%20%D0%B7%D0%B0%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D0%BE%D0%B2%D0%B0%D0%BB%D0%B0%20%D0%B4%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C%20%22${this._title}%22`;
+    this._setEventsListeners();
     return this._element;
   }
 }

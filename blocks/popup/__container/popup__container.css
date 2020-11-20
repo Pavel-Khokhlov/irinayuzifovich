@@ -1,6 +1,6 @@
-.popup-zoom__container {
+.popup__container {
   margin: 0;
-  max-width: max-content;
+  padding: 0;
   position: relative;
   top: 50%;
   left: 50%;

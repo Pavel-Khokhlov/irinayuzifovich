@@ -5,6 +5,7 @@
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/anchor/anchor.css);
 @import url(../blocks/title/title.css);
+@import url(../blocks/paragraph/paragraph.css);
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/story/story.css);
 @import url(../blocks/card/card.css);
@@ -12,11 +13,12 @@
 @import url(../blocks/footer/footer.css);
 @import url(../animation/aimation.css);
 @import url(../blocks/button/button.css);
-@import url(../blocks/popup-menu/popup-menu.css);
-@import url(../blocks/popup-zoom/popup-zoom.css);
+@import url(../blocks/popup/popup.css);
 
 /* MODIFICATORS */
 @import url(../blocks/paragraph/_disabled/paragraph_disabled.css);
-@import url(../blocks/popup-zoom/_opened/popup-zoom_opened.css);
-@import url(../blocks/popup-menu/_opened/popup-menu_opened.css);
-@import url(../blocks/popup-menu/__close/_border/popup-menu__close_border.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/button/_lang/button_lang.css);
+@import url(../blocks/button/_enter/button_enter.css);
+@import url(../blocks/popup/__container/_menu/popup__container_menu.css);
+@import url(../blocks/popup/__container/_zoom/popup__container_zoom.css);
