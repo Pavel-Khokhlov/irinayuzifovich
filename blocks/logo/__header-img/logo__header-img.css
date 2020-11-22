@@ -1,0 +1,4 @@
+.logo__header-img{
+  width: clamp(200px, 50vw, 300px);
+  object-fit: contain;
+}

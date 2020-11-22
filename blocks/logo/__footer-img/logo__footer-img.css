@@ -1,0 +1,6 @@
+.logo__footer-img {
+  width: clamp(150px, 50vw, 300px);
+  object-fit: contain;
+  opacity: 0.4;
+  margin-bottom: 10px;
+}
